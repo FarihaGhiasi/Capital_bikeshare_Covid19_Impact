@@ -1,1 +1,9 @@
 # Capital_bikeshare_Covid19_Impact
+
+The Capital Bikeshare project aims to investigate the impact of COVID-19 on the bike rental services provided by the Capital Bikeshare company in Washington DC. The project utilizes data from 2017 to 2022, with the years 2017, 2018, and 2019 representing the period before the pandemic, 2020 being the year during the pandemic, and 2021 and 2022 being the post-pandemic period. The exploratory data analysis (EDA) is conducted and presented in the "bikeshare_covid19_impact_eda" file, which includes visualizations and observations on the changes in demand for bike rentals during the different periods.
+
+The project further applies machine learning techniques to predict the demand for bike rentals if there was no COVID-19 pandemic in 2020. This prediction is done using both normal machine learning models and the forecasterautoreg algorithm. The project consists of four files: "bikeshare_covid19_ml_2017_2019" and "bikeshare_covid19_ml_2018_2020" for the normal machine learning algorithms, and "bikeshare_covid19_tfa_2017_2019" and "bikeshare_covid19_tfa_2018_2020" for the forecasterautoreg algorithm.
+
+To achieve the goal of predicting demand, the project employs a training and testing methodology. Firstly, the best machine learning model is identified by training on data from 2017 to 2019, where 2017 and 2018 are used as the training set and 2019 as the test set. Once the best model is identified, it is used to predict demand for 2020 by training on data from 2018 to 2020, where 2018 and 2019 are used as the training set and 2020 as the test set.
+
+In summary, the Capital Bikeshare project explores the impact of COVID-19 on bike rental services through exploratory data analysis, followed by applying machine learning techniques to predict demand in the absence of the pandemic. The project's findings can be used to understand the pandemic's impact on bike rental services.
